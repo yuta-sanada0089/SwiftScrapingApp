@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AECD804BAF5BB6815E039216 /* Pods_FremaSearchAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFE9B931F7650171A96C7B4 /* Pods_FremaSearchAppUITests.framework */; };
+		D63026282287D799007B61C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63026272287D799007B61C1 /* AppDelegate.swift */; };
+		D630262A2287D799007B61C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63026292287D799007B61C1 /* ViewController.swift */; };
+		D630262D2287D799007B61C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D630262B2287D799007B61C1 /* Main.storyboard */; };
+		D630262F2287D79C007B61C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D630262E2287D79C007B61C1 /* Assets.xcassets */; };
+		D63026322287D79C007B61C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63026302287D79C007B61C1 /* LaunchScreen.storyboard */; };
+		D630263D2287D79D007B61C1 /* FremaSearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D630263C2287D79D007B61C1 /* FremaSearchAppTests.swift */; };
+		D63026482287D79D007B61C1 /* FremaSearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63026472287D79D007B61C1 /* FremaSearchAppUITests.swift */; };
+		E42388C0120B3622F48AA8FD /* Pods_FremaSearchAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1208616432DA206B45A804D /* Pods_FremaSearchAppTests.framework */; };
+		E64FA1030C98778287F0DECB /* Pods_FremaSearchApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60197D6C4D3B600F74A5228 /* Pods_FremaSearchApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D63026392287D79C007B61C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D630261C2287D799007B61C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63026232287D799007B61C1;
+			remoteInfo = FremaSearchApp;
+		};
+		D63026442287D79D007B61C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D630261C2287D799007B61C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63026232287D799007B61C1;
+			remoteInfo = FremaSearchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FFF0C4ED1FAED672278C5B0 /* Pods-FremaSearchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FremaSearchApp.release.xcconfig"; path = "Target Support Files/Pods-FremaSearchApp/Pods-FremaSearchApp.release.xcconfig"; sourceTree = "<group>"; };
+		64F1D4BB9A931EC7DBFA918C /* Pods-FremaSearchAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FremaSearchAppTests.release.xcconfig"; path = "Target Support Files/Pods-FremaSearchAppTests/Pods-FremaSearchAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A736791EF1856C2D3B7A7A4 /* Pods-FremaSearchAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FremaSearchAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FremaSearchAppUITests/Pods-FremaSearchAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BFE9B931F7650171A96C7B4 /* Pods_FremaSearchAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FremaSearchAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		882C7725C5F544C7F71F451D /* Pods-FremaSearchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FremaSearchApp.debug.xcconfig"; path = "Target Support Files/Pods-FremaSearchApp/Pods-FremaSearchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B60197D6C4D3B600F74A5228 /* Pods_FremaSearchApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FremaSearchApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD077B363EA46B63DFE128C4 /* Pods-FremaSearchAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FremaSearchAppUITests.release.xcconfig"; path = "Target Support Files/Pods-FremaSearchAppUITests/Pods-FremaSearchAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D04AA54760EAEDE471E2F81E /* Pods-FremaSearchAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FremaSearchAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FremaSearchAppTests/Pods-FremaSearchAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D63026242287D799007B61C1 /* FremaSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FremaSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63026272287D799007B61C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D63026292287D799007B61C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D630262C2287D799007B61C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D630262E2287D79C007B61C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D63026312287D79C007B61C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D63026332287D79C007B61C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63026382287D79C007B61C1 /* FremaSearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FremaSearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D630263C2287D79D007B61C1 /* FremaSearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FremaSearchAppTests.swift; sourceTree = "<group>"; };
+		D630263E2287D79D007B61C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63026432287D79D007B61C1 /* FremaSearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FremaSearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63026472287D79D007B61C1 /* FremaSearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FremaSearchAppUITests.swift; sourceTree = "<group>"; };
+		D63026492287D79D007B61C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1208616432DA206B45A804D /* Pods_FremaSearchAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FremaSearchAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D63026212287D799007B61C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64FA1030C98778287F0DECB /* Pods_FremaSearchApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63026352287D79C007B61C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42388C0120B3622F48AA8FD /* Pods_FremaSearchAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63026402287D79D007B61C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECD804BAF5BB6815E039216 /* Pods_FremaSearchAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16ED1B1E9166D6552ED7E117 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B60197D6C4D3B600F74A5228 /* Pods_FremaSearchApp.framework */,
+				F1208616432DA206B45A804D /* Pods_FremaSearchAppTests.framework */,
+				7BFE9B931F7650171A96C7B4 /* Pods_FremaSearchAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D630261B2287D799007B61C1 = {
+			isa = PBXGroup;
+			children = (
+				D63026262287D799007B61C1 /* FremaSearchApp */,
+				D630263B2287D79C007B61C1 /* FremaSearchAppTests */,
+				D63026462287D79D007B61C1 /* FremaSearchAppUITests */,
+				D63026252287D799007B61C1 /* Products */,
+				DA654701B9FB1DC25AE17DF1 /* Pods */,
+				16ED1B1E9166D6552ED7E117 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D63026252287D799007B61C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D63026242287D799007B61C1 /* FremaSearchApp.app */,
+				D63026382287D79C007B61C1 /* FremaSearchAppTests.xctest */,
+				D63026432287D79D007B61C1 /* FremaSearchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D63026262287D799007B61C1 /* FremaSearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				D63026272287D799007B61C1 /* AppDelegate.swift */,
+				D63026292287D799007B61C1 /* ViewController.swift */,
+				D630262B2287D799007B61C1 /* Main.storyboard */,
+				D630262E2287D79C007B61C1 /* Assets.xcassets */,
+				D63026302287D79C007B61C1 /* LaunchScreen.storyboard */,
+				D63026332287D79C007B61C1 /* Info.plist */,
+			);
+			path = FremaSearchApp;
+			sourceTree = "<group>";
+		};
+		D630263B2287D79C007B61C1 /* FremaSearchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D630263C2287D79D007B61C1 /* FremaSearchAppTests.swift */,
+				D630263E2287D79D007B61C1 /* Info.plist */,
+			);
+			path = FremaSearchAppTests;
+			sourceTree = "<group>";
+		};
+		D63026462287D79D007B61C1 /* FremaSearchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D63026472287D79D007B61C1 /* FremaSearchAppUITests.swift */,
+				D63026492287D79D007B61C1 /* Info.plist */,
+			);
+			path = FremaSearchAppUITests;
+			sourceTree = "<group>";
+		};
+		DA654701B9FB1DC25AE17DF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				882C7725C5F544C7F71F451D /* Pods-FremaSearchApp.debug.xcconfig */,
+				1FFF0C4ED1FAED672278C5B0 /* Pods-FremaSearchApp.release.xcconfig */,
+				D04AA54760EAEDE471E2F81E /* Pods-FremaSearchAppTests.debug.xcconfig */,
+				64F1D4BB9A931EC7DBFA918C /* Pods-FremaSearchAppTests.release.xcconfig */,
+				7A736791EF1856C2D3B7A7A4 /* Pods-FremaSearchAppUITests.debug.xcconfig */,
+				BD077B363EA46B63DFE128C4 /* Pods-FremaSearchAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63026232287D799007B61C1 /* FremaSearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D630264C2287D79D007B61C1 /* Build configuration list for PBXNativeTarget "FremaSearchApp" */;
+			buildPhases = (
+				9E0603CD1FE3B8F636492F57 /* [CP] Check Pods Manifest.lock */,
+				D63026202287D799007B61C1 /* Sources */,
+				D63026212287D799007B61C1 /* Frameworks */,
+				D63026222287D799007B61C1 /* Resources */,
+				4FEA42E8BB7AA4ADC67B1974 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FremaSearchApp;
+			productName = FremaSearchApp;
+			productReference = D63026242287D799007B61C1 /* FremaSearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D63026372287D79C007B61C1 /* FremaSearchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D630264F2287D79D007B61C1 /* Build configuration list for PBXNativeTarget "FremaSearchAppTests" */;
+			buildPhases = (
+				934B5240E6FEC9BAB941D1C4 /* [CP] Check Pods Manifest.lock */,
+				D63026342287D79C007B61C1 /* Sources */,
+				D63026352287D79C007B61C1 /* Frameworks */,
+				D63026362287D79C007B61C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D630263A2287D79C007B61C1 /* PBXTargetDependency */,
+			);
+			name = FremaSearchAppTests;
+			productName = FremaSearchAppTests;
+			productReference = D63026382287D79C007B61C1 /* FremaSearchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D63026422287D79D007B61C1 /* FremaSearchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63026522287D79D007B61C1 /* Build configuration list for PBXNativeTarget "FremaSearchAppUITests" */;
+			buildPhases = (
+				542CE17BBD28F83B9D60BC3D /* [CP] Check Pods Manifest.lock */,
+				D630263F2287D79D007B61C1 /* Sources */,
+				D63026402287D79D007B61C1 /* Frameworks */,
+				D63026412287D79D007B61C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63026452287D79D007B61C1 /* PBXTargetDependency */,
+			);
+			name = FremaSearchAppUITests;
+			productName = FremaSearchAppUITests;
+			productReference = D63026432287D79D007B61C1 /* FremaSearchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D630261C2287D799007B61C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = YutaSanada;
+				TargetAttributes = {
+					D63026232287D799007B61C1 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					D63026372287D79C007B61C1 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = D63026232287D799007B61C1;
+					};
+					D63026422287D79D007B61C1 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = D63026232287D799007B61C1;
+					};
+				};
+			};
+			buildConfigurationList = D630261F2287D799007B61C1 /* Build configuration list for PBXProject "FremaSearchApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D630261B2287D799007B61C1;
+			productRefGroup = D63026252287D799007B61C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D63026232287D799007B61C1 /* FremaSearchApp */,
+				D63026372287D79C007B61C1 /* FremaSearchAppTests */,
+				D63026422287D79D007B61C1 /* FremaSearchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63026222287D799007B61C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63026322287D79C007B61C1 /* LaunchScreen.storyboard in Resources */,
+				D630262F2287D79C007B61C1 /* Assets.xcassets in Resources */,
+				D630262D2287D799007B61C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63026362287D79C007B61C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63026412287D79D007B61C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FEA42E8BB7AA4ADC67B1974 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FremaSearchApp/Pods-FremaSearchApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FremaSearchApp/Pods-FremaSearchApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		542CE17BBD28F83B9D60BC3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FremaSearchAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		934B5240E6FEC9BAB941D1C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FremaSearchAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E0603CD1FE3B8F636492F57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FremaSearchApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D63026202287D799007B61C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D630262A2287D799007B61C1 /* ViewController.swift in Sources */,
+				D63026282287D799007B61C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63026342287D79C007B61C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D630263D2287D79D007B61C1 /* FremaSearchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D630263F2287D79D007B61C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63026482287D79D007B61C1 /* FremaSearchAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D630263A2287D79C007B61C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63026232287D799007B61C1 /* FremaSearchApp */;
+			targetProxy = D63026392287D79C007B61C1 /* PBXContainerItemProxy */;
+		};
+		D63026452287D79D007B61C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63026232287D799007B61C1 /* FremaSearchApp */;
+			targetProxy = D63026442287D79D007B61C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D630262B2287D799007B61C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D630262C2287D799007B61C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D63026302287D79C007B61C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63026312287D79C007B61C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D630264A2287D79D007B61C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D630264B2287D79D007B61C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D630264D2287D79D007B61C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882C7725C5F544C7F71F451D /* Pods-FremaSearchApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FremaSearchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.init-inc.FremaSearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D630264E2287D79D007B61C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFF0C4ED1FAED672278C5B0 /* Pods-FremaSearchApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FremaSearchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.init-inc.FremaSearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D63026502287D79D007B61C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04AA54760EAEDE471E2F81E /* Pods-FremaSearchAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FremaSearchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.init-inc.FremaSearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FremaSearchApp.app/FremaSearchApp";
+			};
+			name = Debug;
+		};
+		D63026512287D79D007B61C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F1D4BB9A931EC7DBFA918C /* Pods-FremaSearchAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FremaSearchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.init-inc.FremaSearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FremaSearchApp.app/FremaSearchApp";
+			};
+			name = Release;
+		};
+		D63026532287D79D007B61C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A736791EF1856C2D3B7A7A4 /* Pods-FremaSearchAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FremaSearchAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.init-inc.FremaSearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FremaSearchApp;
+			};
+			name = Debug;
+		};
+		D63026542287D79D007B61C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD077B363EA46B63DFE128C4 /* Pods-FremaSearchAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FremaSearchAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.init-inc.FremaSearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FremaSearchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D630261F2287D799007B61C1 /* Build configuration list for PBXProject "FremaSearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D630264A2287D79D007B61C1 /* Debug */,
+				D630264B2287D79D007B61C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D630264C2287D79D007B61C1 /* Build configuration list for PBXNativeTarget "FremaSearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D630264D2287D79D007B61C1 /* Debug */,
+				D630264E2287D79D007B61C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D630264F2287D79D007B61C1 /* Build configuration list for PBXNativeTarget "FremaSearchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63026502287D79D007B61C1 /* Debug */,
+				D63026512287D79D007B61C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63026522287D79D007B61C1 /* Build configuration list for PBXNativeTarget "FremaSearchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63026532287D79D007B61C1 /* Debug */,
+				D63026542287D79D007B61C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D630261C2287D799007B61C1 /* Project object */;
+}
